@@ -1,4 +1,4 @@
 from speedtest import Speedtest
 st= Speedtest()
-print("Download Speed",st.download())
-print("Upload Speed",st.upload())
+print("Download Speed in bps",st.download())
+print("Upload Speed bps",st.upload())
